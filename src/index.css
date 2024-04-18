@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-color: #004d40; /* Example background color */
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 2rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.icon-twitter {
+  padding-right: 50px;
+  font-size: 5rem;
+  color: aqua;
+}
+
+.icon-youtube {
+  font-size: 5rem;
+  color: red;
+}
+
+.icon-telegram {
+  font-size: 5rem;
+  padding-right: 50px;
+  color: blue;
 }
